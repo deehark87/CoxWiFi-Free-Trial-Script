@@ -1,0 +1,19 @@
+{
+  "name": "wifi2",
+  "version": "0.1.0",
+  "description": "Automation tool that spoofs MAC addresses and interacts with a captive portal using Puppeteer.",
+  "main": "free-wifi.js",
+  "scripts": {
+  "start": "node free-wifi.js --iface wlo1",
+  "start:debug": "node free-wifi.js --iface wlo1 --debug"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "node-random-name": "^1.1.0",
+    "puppeteer": "^20.0.0",
+    "random-useragent": "^0.3.2",
+    "shelljs": "^0.8.5",
+    "yargs": "^17.7.2"
+  }
+}
